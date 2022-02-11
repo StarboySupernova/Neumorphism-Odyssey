@@ -11,6 +11,7 @@
 		57CE2A7E27B5E52B00D2297A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CE2A7D27B5E52B00D2297A /* ContentView.swift */; };
 		57CE2A8027B5E52D00D2297A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57CE2A7F27B5E52D00D2297A /* Assets.xcassets */; };
 		57CE2A8327B5E52D00D2297A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57CE2A8227B5E52D00D2297A /* Preview Assets.xcassets */; };
+		57CE2A8A27B5E89100D2297A /* ExtensionOnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CE2A8927B5E89100D2297A /* ExtensionOnView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		57CE2A7D27B5E52B00D2297A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		57CE2A7F27B5E52D00D2297A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57CE2A8227B5E52D00D2297A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		57CE2A8927B5E89100D2297A /* ExtensionOnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionOnView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				57CE2A7D27B5E52B00D2297A /* ContentView.swift */,
 				57CE2A7F27B5E52D00D2297A /* Assets.xcassets */,
 				57CE2A8127B5E52D00D2297A /* Preview Content */,
+				57CE2A8927B5E89100D2297A /* ExtensionOnView.swift */,
 			);
 			path = "Neumorphism Odyssey";
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57CE2A8A27B5E89100D2297A /* ExtensionOnView.swift in Sources */,
 				57CE2A7E27B5E52B00D2297A /* ContentView.swift in Sources */,
 				57CE2A7C27B5E52B00D2297A /* Neumorphism_OdysseyApp.swift in Sources */,
 			);
