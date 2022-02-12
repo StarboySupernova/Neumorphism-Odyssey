@@ -94,14 +94,14 @@ struct ColorfulBackground<S: Shape>: View {
         ZStack {
             if isHighlighted {
                 shape
-                    .fill(LinearGradient(Color.darkEnd, Color.darkStart))
-                    .overlay(shape.stroke(LinearGradient(Color.darkStart, Color.darkEnd), lineWidth: 4)) //bevel appears when button is pressed
+                    .fill(LinearGradient(Color.lightEnd, Color.lightStart))
+                    .overlay(shape.stroke(LinearGradient(Color.lightStart, Color.lightEnd), lineWidth: 4)) //bevel appears when button is pressed
                     .shadow(color: Color.darkStart, radius: 10, x: 5, y: 5)
                     .shadow(color: Color.darkEnd, radius: 10, x: -5, y: -5)
             } else {
                 shape
                     .fill(LinearGradient(Color.darkStart, Color.darkEnd))
-                    .overlay(shape.stroke(Color.darkEnd, lineWidth: 4))
+                    .overlay(shape.stroke(LinearGradient(Color.lightStart, Color.lightEnd), lineWidth: 4))
                     .shadow(color: Color.darkStart, radius: 10, x: -10, y: -10)
                     .shadow(color: Color.darkEnd, radius: 10, x: 10, y: 10)
             }
@@ -183,14 +183,14 @@ struct ContentView: View {
                     Image(systemName: "heart.fill")
                         .foregroundColor(.white)
                 })
-                    .buttonStyle(DarkButtonStyle())
+                    .buttonStyle(ColorfulButtonStyle())
                     .animation(nil)
                 
                 Toggle(isOn: $isToggled){
                     Image(systemName: "heart.fill")
                         .foregroundColor(.white)
                 }
-                .toggleStyle(DarkToggleStyle())
+                .toggleStyle(ColorfulToggleStyle())
                 
             }
         }
