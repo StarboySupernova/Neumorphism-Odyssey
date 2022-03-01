@@ -184,7 +184,7 @@ struct ContentView: View {
                         .foregroundColor(.white)
                 })
                     .buttonStyle(ColorfulButtonStyle())
-                    .animation(nil)
+                    .animation(nil, value: 0)
                 
                 Toggle(isOn: $isToggled){
                     Image(systemName: "heart.fill")
